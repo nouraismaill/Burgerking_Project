@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>products</title>
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="shortcut icon" href="image\Burger_King_logo_(1994).svg.png">
+   
+   
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    
+    <header>
+        <a href="index.html" class="logo"><img src="image\mainlogodesktop.png" alt=""></a>
+    
+        <nav class="navbar">
+
+            <ul>
+               
+                <li><a href="kingdom.html">Our Kingdom</a></li>
+                <li><a href="products.html">Our Products</a></li>
+                <li><a href="offers.html">Offers</a></li>
+                <li><a href="contact.html" target="_blank">Contact Us</a></li>
+                <li><i class="fa-sharp fa-solid fa-phone">1525</i></li>
+            </ul>
+            
+            
+        </nav>
+        
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-Icon"></i>
+     
+    
+        <div class="cart">
+            <h2 class="cart-title">Your Cart</h2>
+            <div class="cart-content">
+                
+                </div>
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-Price">$0</div>
+            </div>
+            
+            <button type="button" class="btn-Buy" >Buy Now</button>
+            <i class="fa-sharp fa-solid fa-xmark" id="cart-close"></i>
+        </div>
+
+    </header>
+   
+    <section>
+        <div class="title">
+            <h1>OUR PRODUCTS</h1>
+           
+
+        </div>
+
+        <div id="food-menu">
+            <div class="Container">
+                <h2><span>Our</span> Menu</h2>
+                
+                <div class="categories">
+                    
+                        <button type= "button" class="List active" data-filter="All">All Products</button>
+                        <button  type= "button" class="List" data-filter="Flame-Grilled">Flame-Grilled &Delight</button>
+                        <button  type= "button" class="List" data-filter="chicken-others">Chicken-Side</button>
+                        <button type= "button"  class="List" data-filter="kingjuniormeals">Junior Meals &Salads</button>
+                        <button type= "button" class="List" data-filter="beverages">Beverages & Coffee</button>
+                        <button type= "button" class="List" data-filter="desserts">Desserts</button> 
+                    
+                    
+                </div>
+                <div class="food-menu_Container">
+                   
+                    <div class="Menus_Items_Container">
+                        <div class="Img_Cards Flame-Grilled">
+                            <img src="image/WHOPPER.png"  class="product-img"  >
+                            <h1 class="product-title">Whopper®</h1>
+                            <span class="price">$25</span>
+                        <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards chicken-others">
+                            <img src="image/BIG-KING-CHICKEN.png" class="product-img "  >
+                            <h1 class="product-title">Big King Chicken</h1>
+                            <span class="price">$25</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards beverages">
+                            <img src="image/Americano.png"  class="product-img " >
+                            <h1 class="product-title">Americano coffee</h1>
+                            <span class="price">$2</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards chicken-others">
+                            <img src="image/CHICKEN-BURGER.png"  class="product-img">
+                            <h1 class="product-title">Chicken Burger</h1>
+                            <span class="price">$24</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards chicken-others">
+                            <img src="image/CHICKEN-NUGGETS-10PC.png"  class="product-img">
+                            <h1 class="product-title">Chicken Nuggets</h1>
+                            <span class="price">$6</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards chicken-others">
+                            <img src="image/Chicken-Royale-Steakhouse (1).png"  class="product-img">
+                            <h1 class="product-title">Chicken Royale Steakhouse</h1>
+                            <span class="price">$20</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards chicken-others">
+                            <img src="image/wings6pc.png"  class="product-img">
+                            <h1 class="product-title">Wings 6pc</h1>
+                            <span class="price">$15</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards chicken-others">
+                            <img src="image/chikensteakv2.png"  class="product-img">
+                            <h1 class="product-title">Chicken Steak</h1>
+                            <span class="price">$17</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards desserts">
+                            <img src="image/cookie3.png"  class="product-img">
+                            <h1 class="product-title">Cookie</h1>
+                            <span class="price">$5</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        
+                        <div class="Img_Cards desserts">
+                            <img src="image/donut3.png"  class="product-img">
+                            <h1 class="product-title">Donut</h1>
+                            <span class="price">$8</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards beverages">
+                            <img src="image/DR_Double_Espresso-v1.png"  class="product-img Freshly Roasted Coffee">
+                            <h1 class="product-title">Double Espresso</h1>
+                            <span class="price">$17</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards beverages">
+                            <img src="image/DR_Hot_Chocolate-v1.png"  class="product-img">
+                            <h1 class="product-title">Hot Chocolate</h1>
+                            <span class="price">$18</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards Flame-Grilled">
+                            <img src="image/inside_cheeseburger.png"  class="product-img">
+                            <h1 class="product-title">Cheese Burger</h1>
+                            <span class="price">$20</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards beverages">
+                            <img src="image/HD_CAPPUCCINO-v1.png"  class="product-img">
+                            <h1 class="product-title">Cappuccino</h1>
+                            <span class="price">$1.5</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards chicken-others">
+                            <img src="image/inchikenroyale.png"  class="product-img">
+                            <h1 class="product-title">Chicken Royale</h1>
+                            <span class="price">$17</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards chicken-others">
+                            <img src="image/wings2pc.png"  class="product-img">
+                            <h1 class="product-title">Wings 2pc</h1>
+                            <span class="price">$6</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards chicken-others">
+                            <img src="image/Spicy-ChickenSandwich.png"  class="product-img">
+                            <h1 class="product-title">Spicy Chicken Sandwish</h1>
+                            <span class="price">$19</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards chicken-others">
+                            <img src="image/REGULAR-FRIES.png"  class="product-img">
+                            <h1 class="product-title">Regular Fries</h1>
+                            <span class="price">$4</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards chicken-others">
+                            <img src="image/KING-FRIES (1).png"  class="product-img">
+                            <h1 class="product-title">King Fries XXL</h1>
+                            <span class="price">$10</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards desserts">
+                            <img src="image/popstrawbery.png"  class="product-img">
+                            <h1 class="product-title">Sundae Strawberry</h1>
+                            <span class="price">$4</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards desserts">
+                            <img src="image/popicecream.png"  class="product-img">
+                            <h1 class="product-title">Ice Cream Cone</h1>
+                            <span class="price">$2.5</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards beverages">
+                            <img src="image/popapplejuce.png"  class="product-img">
+                            <h1 class="product-title">Apple juice</h1>
+                            <span class="price">$0.5</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards desserts">
+                            <img src="image/popcaramel.png"  class="product-img">
+                            <h1 class="product-title">Sundae Caramel</h1>
+                            <span class="price">$0.7</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards chicken-others">
+                            <img src="image/newbatataburger.png"  class="product-img">
+                            <h1 class="product-title">Batata Burger</h1>
+                            <span class="price">$18</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards beverages">
+                            <img src="image/Mocha-Latte.png"  class="product-img">
+                            <h1 class="product-title">Mocha Latte</h1>
+                            <span class="price">$14</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards chicken-others">
+                            <img src="image/largefries.png"  class="product-img">
+                            <h1 class="product-title">Large Fries</h1>
+                            <span class="price">$9</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards Flame-Grilled">
+                            <img src="image/poplitchikenwhopper.png"  class="product-img">
+                            <h1 class="product-title">Lite Chicken Whopper®</h1>
+                            <span class="price">$26</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards Flame-Grilled">
+                            <img src="image/poplightwhopper.png"  class="product-img">
+                            <h1 class="product-title">Lite Whopper®</h1>
+                            <span class="price">$18</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards beverages">
+                            <img src="image/MINIRAL WATER2-pop.png"  class="product-img">
+                            <h1 class="product-title">Water</h1>
+                            <span class="price">$0.5</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards beverages">
+                            <img src="image/Latte.png"  class="product-img">
+                            <h1 class="product-title">Latte</h1>
+                            <span class="price">$14</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards Flame-Grilled">
+                            <img src="image/inside_tripplewhopper.png"  class="product-img">
+                            <h1 class="product-title">Tripple Whopper®</h1>
+                            <span class="price">$30</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards Flame-Grilled">
+                            <img src="image/inside_bigkingxxl.png"  class="product-img">
+                            <h1 class="product-title">Big King XXL</h1>
+                            <span class="price">$30</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards Flame-Grilled">
+                            <img src="image/inside_doublecheese.png"  class="product-img">
+                            <h1 class="product-title">Double Cheeseburger</h1>
+                            <span class="price">$32</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards Flame-Grilled">
+                            <img src="image/inside_xlcheese.png"  class="product-img">
+                            <h1 class="product-title">XL Cheeseburger</h1>
+                            <span class="price">$24</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards chicken-others">
+                            <img src="image/Spicy-Chicken-Royale-Steakhouse.png"  class="product-img">
+                            <h1 class="product-title">Spicy Chicken Steakhouse</h1>
+                            <span class="price">$24</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards chicken-others">
+                            <img src="image/chikensteakv2.png"  class="product-img">
+                            <h1 class="product-title">Chicken Steakhouse</h1>
+                            <span class="price">$24</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards kingjuniormeals">
+                            <img src="image/inkingjrhamburger.png"  class="product-img">
+                            <h1 class="product-title">King JR Hamburger Meal</h1>
+                            <span class="price">$27</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards kingjuniormeals">
+                            <img src="image/inkingjrchikenburger.png"  class="product-img">
+                            <h1 class="product-title">King JR Chicken Burger </h1>
+                            <span class="price">$27</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards kingjuniormeals">
+                            <img src="image/inkingjrchikemnugget4pc.png"   class="product-img">
+                            <h1 class="product-title">King JR Chicken Nuggets </h1>
+                            <span class="price">$30</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards kingjuniormeals">
+                            <img src="image/inkingjrcheeseburger (1).png"   class="product-img">
+                            <h1 class="product-title">King JR Chicken meal </h1>
+                            <span class="price">$33</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards beverages">
+                            <img src="image/pepsipop2022.png"  class="product-img">
+                            <h1 class="product-title">Pepsi</h1>
+                            <span class="price">$0.8</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards kingjuniormeals">
+                            <img src="image/KING GARDEN SALAD-pop.png"  class="product-img">
+                            <h1 class="product-title">King Garden Salad</h1>
+                            <span class="price">$14</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards kingjuniormeals">
+                            <img src="image/KING CHICKEN SALAD3-pop.png"  class="product-img">
+                            <h1 class="product-title">King Chicken Salad</h1>
+                            <span class="price">$20</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards desserts">
+                            <img src="image/popchoc.png"  class="product-img">
+                            <h1 class="product-title">Sundae Chocolate</h1>
+                            <span class="price">$9</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards Flame-Grilled">
+                            <img src="image/BIG-KING-BEEF.png"  class="product-img">
+                            <h1 class="product-title">Big King Beef</h1>
+                            <span class="price">$30</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards beverages">
+                            <img src="image/HD_COFFEEWITHMILK_01-v1.png"  class="product-img">
+                            <h1 class="product-title">Coffee With Milk</h1>
+                            <span class="price">$17</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards beverages">
+                            <img src="image/DR_Espresso-v1.png"  class="product-img">
+                            <h1 class="product-title">Espresso</h1>
+                            <span class="price">$12</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards beverages">
+                            <img src="image/mirinda2022.png"  class="product-img">
+                            <h1 class="product-title">Mirinda</h1>
+                            <span class="price">$0.8</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards beverages">
+                            <img src="image/dietzuppop2022.png"  class="product-img">
+                            <h1 class="product-title">7UP diet</h1>
+                            <span class="price">$1</span>
+                           <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards beverages">
+                            <img src="image/zuppop2022.png"  class="product-img">
+                            <h1 class="product-title">7UP</h1>
+                            <span class="price">$0.8</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards beverages">
+                            <img src="image/dietpepsipop2022.png"  class="product-img">
+                            <h1 class="product-title">Pepsi Diet</h1>
+                            <span class="price">$0.8</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards beverages">
+                            <img src="image/iceteajuice.png"  class="product-img">
+                            <h1 class="product-title">Ice Tea</h1>
+                            <span class="price">$1</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards beverages">
+                            <img src="image/orangetropicana.png"  class="product-img">
+                            <h1 class="product-title">Orange Juice</h1>
+                            <span class="price">$0.5</span> 
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards chicken-others">
+                            <img src="image/wings20pc.png"  class="product-img">
+                            <h1 class="product-title">King wings 20pc</h1>
+                            <span class="price">$20</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards Flame-Grilled">
+                            <img src="image/newversionhamburger.png"  class="product-img">
+                            <h1 class="product-title">Hamburger</h1>
+                            <span class="price">$20</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                        <div class="Img_Cards chicken-others">
+                            <img src="image/CHICKEN-TENDERLOIN (1).png"  class="product-img">
+                            <h1 class="product-title">Chicken Tenderloin</h1>
+                            <span class="price">$20</span>
+                            <button  class="btn" id="add-cart">Add To cart</button>
+                        </div>
+                       
+                       
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                </div>
+        </div>
+                </div>
+            </div>        
+
+        </section>
+        
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>BK Lebanon Info</h4>
+                        <ul>
+                            <li><a href="kingdom.html">Our Kingdom </a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Menu
+                            <ul>
+                                <li><a href="products.html">Our Menu </a></li>
+                                
+                            </ul>
+                         
+                        </h4>
+                      
+                    </div>
+                    <div class="footer-col">
+    
+                        <ul>
+                            <li>
+                                
+    
+                                <a href="offers.html">
+                                    <h4>OFFERS</h4>
+                                </a>
+    
+    
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <ul>
+                            <li>
+                             
+                                <a href="contact.html">
+                                    <h4>Contact Us</h4>
+                                </a>
+    
+    
+                            </li>
+                        </ul>
+                    </div>
+    
+                </div>
+    
+    
+                <hr>
+                <div class="row">
+    
+                    <div class="col">
+                        <p>TM &amp; Copyright 2023 Burger King Corporation. All Rights Reserved.</p>
+                    </div>
+                    <br>
+                    <div class="socialIcons">
+                        <a href="https://www.facebook.com/bklebanon"><i class="fa-brands fa-facebook fa-sm"></i></a>
+                        <a href="https://twitter.com/intent/tweet?counturl=https://tinyurl.com/2qw7um9k&text=BURGER%20KING%C2%AE%20LEBANON&original_referer=https://bklebanon.com/home&priority=1&related=BKLebanon&url=https%3A%2F%2Ftinyurl.com%2F2qw7um9k&via=BKLebanon"><i class="fa-brands fa-twitter fa-sm"></i></a>
+                        <a href="https://www.instagram.com/burgerking_lebanon/"><i class="fa-brands fa-instagram fa-sm"></i></a>
+                    </div>
+    
+                </div>
+            </div>
+    
+    
+        </footer>
+  
+  <script src="script2.js"></script>
+
+  <script
+  src="https://code.jquery.com/jquery-3.7.0.js"
+  integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript"> $(document).ready(function(){
+    $('.List').click(function(){
+        const value = $(this).attr('data-filter');
+        if(value =='All'){
+            $('.Img_Cards').show('1000');
+        }
+        else{
+            $('.Img_Cards').not('.'+value).hide('1000');
+            $('.Img_Cards').filter('.'+value).show('1000');
+        }
+    })
+    $('.List').click(function(){
+        $(this).addClass('active').siblings().removeClass('active');
+    })
+  })</script>
+      <script src="script.js"></script>
+</body>
+
+</html>
